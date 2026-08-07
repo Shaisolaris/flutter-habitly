@@ -183,7 +183,7 @@ class HabitStatsCard extends StatelessWidget {
 }
 
 class _StatChip extends StatelessWidget {
-  const _StatChip({super.key, required this.icon, required this.label});
+  const _StatChip({required this.icon, required this.label});
 
   final IconData icon;
   final String label;

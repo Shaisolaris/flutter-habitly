@@ -102,7 +102,7 @@ class TodayScreen extends ConsumerWidget {
 }
 
 class _TodayError extends StatelessWidget {
-  const _TodayError({super.key, required this.error});
+  const _TodayError({required this.error});
 
   final Object error;
 

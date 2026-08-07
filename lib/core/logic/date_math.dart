@@ -6,6 +6,7 @@
 /// "day" isn't always exactly 24 hours). Rebuilding the date from its
 /// calendar fields instead is DST-safe and keeps every date at local
 /// midnight, which the streak and heatmap math both depend on.
+library;
 
 /// Returns local midnight, [days] calendar days after [date] (or before, if
 /// [days] is negative).

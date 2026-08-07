@@ -134,7 +134,7 @@ class HabitCheckInTile extends StatelessWidget {
 }
 
 class _CheckInButton extends StatelessWidget {
-  const _CheckInButton({super.key, required this.isCompleted, required this.onToggle});
+  const _CheckInButton({required this.isCompleted, required this.onToggle});
 
   final bool isCompleted;
   final VoidCallback onToggle;
